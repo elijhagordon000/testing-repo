@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+}
+
+.main-header h3{
+    color: black;
+}
+.main-header nav a{
+    color: gray;
+    text-decoration: none;
+}
+.main-header nav a:not(:last-child){
+    margin-right: 8px;
+}
+
+.main-header nav a:hover:after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: red;
+}
